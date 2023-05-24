@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  max-width: 1440px;
+  margin: auto;
+  background-image: url("https://preview.colorlib.com/theme/villa/img/hero_1.jpg.webp");
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+header nav a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+header nav h3 {
+  color: white;
+}
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 120px;
+}
+header .btnexp {
+  width: 150px;
+  background-color: rgb(241, 81, 81);
+  border-radius: 12px;
+  border: navajowhite;
+}
+header .btndow {
+  width: 100px;
+  background-color: rgb(199, 187, 187);
+  border-radius: 12px;
+  border: none;
+}
+
+footer {
+  max-width: 1440px;
+  margin: auto;
+  background-color: rgb(77, 70, 70);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+main {
+  max-width: 1440px;
+  margin: auto;
+}
+main .visit {
+  padding: 40px;
+}
+main .visit .sekiller {
+  display: flex;
+  gap: 20px;
+}
+main .visit .kart {
+  max-width: 24%;
+}
+main .visit .kart img {
+  width: 100%;
+}
+main .visit .kart i {
+  color: red;
+}
+@media screen and (max-width: 768px) {
+  main .sekiller {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .sekiller .kart {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+main .gorg {
+  background-image: url("https://preview.colorlib.com/theme/villa/img/round.png.webp");
+  max-width: 1440px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+main .gorg h1 {
+  text-align: center;
+  font-size: 52px;
+  max-width: 60%;
+}
+main .gorg p {
+  max-width: 60%;
+}
+main .gorgh1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .img {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+main .img .cart {
+  max-width: 32%;
+}
+main .img .cart img {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  main .img {
+    display: flex;
+    flex-direction: column;
+  }
+  main .img .cart {
+    max-width: 100%;
+  }
+}
+
+.recent {
+  max-width: 1440px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.recent .resentpteg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recent h1 {
+  text-align: center;
+  font-size: 52px;
+  max-width: 60%;
+}
+.recent p {
+  max-width: 60%;
+}/*# sourceMappingURL=main.css.map */

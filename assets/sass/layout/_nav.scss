@@ -1,0 +1,39 @@
+header {
+  max-width: 1440px;
+  margin: auto;
+  background-image: url("https://preview.colorlib.com/theme/villa/img/hero_1.jpg.webp");
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    a {
+      text-decoration: none;
+      font-size: 30px;
+      color: white;
+    }
+    h3 {
+      color: white;
+    }
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 120px;
+  }
+  .btnexp {
+    width: 150px;
+    background-color: rgb(241, 81, 81);
+    border-radius: 12px;
+    border: navajowhite;
+  }
+  .btndow {
+    width: 100px;
+    background-color: rgb(199, 187, 187);
+    border-radius: 12px;
+    border: none;
+  }
+}

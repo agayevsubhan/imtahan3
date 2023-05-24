@@ -1,0 +1,101 @@
+main {
+  max-width: 1440px;
+  margin: auto;
+  .visit {
+    padding: 40px;
+    .sekiller {
+      display: flex;
+      gap: 20px;
+    }
+
+    .kart {
+      max-width: 24%;
+      img {
+        width: 100%;
+      }
+      i {
+        color: red;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .sekiller {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .kart {
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+    
+  }
+  .gorg {
+    background-image: url("https://preview.colorlib.com/theme/villa/img/round.png.webp");
+    max-width: 1440px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    h1 {
+      text-align: center;
+      font-size: 52px;
+      max-width: 60%;
+    }
+    p {
+      max-width: 60%;
+    }
+  }
+  .gorgh1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    .cart {
+        max-width: 32%;
+        img{
+            width: 100%;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        display: flex;
+    flex-direction: column; 
+    .cart{
+        max-width: 100%;
+    }       
+      }
+
+
+  }
+ 
+}
+.recent {
+  max-width: 1440px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+  .resentpteg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    text-align: center;
+    font-size: 52px;
+    max-width: 60%;
+  }
+  p {
+    max-width: 60%;
+  }
+
+  
+}
