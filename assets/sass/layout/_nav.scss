@@ -1,39 +1,73 @@
-header {
-  max-width: 1440px;
-  margin: auto;
-  background-image: url("https://preview.colorlib.com/theme/villa/img/hero_1.jpg.webp");
-  nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    a {
-      text-decoration: none;
-      font-size: 30px;
-      color: white;
-    }
-    h3 {
-      color: white;
-    }
-  }
+header{
+background-image: url("https://preview.colorlib.com/theme/theestate/images/home_slider_bcg.jpg.webp");
+max-width: 1440px;
+margin: auto;
+nav {
+  // background-color: #0e1d41;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .estate{
+    padding: 15PX ;
+color: white;
+font-size: 25px;
+display: flex;
+flex-direction: column;
+align-items: center;
 
-  .container {
+  }
+  
+  ul {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    padding: 120px;
+    gap: 50px;
+    color: white;
+    text-align: center;
   }
-  .btnexp {
-    width: 150px;
-    background-color: rgb(241, 81, 81);
-    border-radius: 12px;
-    border: navajowhite;
+  li{
+    color: white;
+    list-style: none;
+   
+}
+a{
+  
+  text-decoration: none;
+  color: white;
+  font-weight: 500px;
+  
+}
+span{
+  background-color: orangered;
+  text-align: center;
+  color: white;
+}
+button{
+  background-color: inherit;
+  border: none;
+  font-size: 23px;
+  color: white;
+  display: none;
+}
+
+}
+h1{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+ font-weight: 450px;
+ padding: 100px;
+}
+@media screen  and (max-width:968px){
+  nav{
+ul{
+  display: none;
+}
+span{
+  display: none;
+}
+button{
+  display: block;
+}
   }
-  .btndow {
-    width: 100px;
-    background-color: rgb(199, 187, 187);
-    border-radius: 12px;
-    border: none;
-  }
+  
+}
 }

@@ -4,145 +4,158 @@
 }
 
 header {
+  background-image: url("https://preview.colorlib.com/theme/theestate/images/home_slider_bcg.jpg.webp");
   max-width: 1440px;
   margin: auto;
-  background-image: url("https://preview.colorlib.com/theme/villa/img/hero_1.jpg.webp");
 }
 header nav {
   display: flex;
-  justify-content: space-between;
-  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav .estate {
+  padding: 15PX;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  gap: 50px;
+  color: white;
+  text-align: center;
+}
+header nav li {
+  color: white;
+  list-style: none;
 }
 header nav a {
   text-decoration: none;
-  font-size: 30px;
+  color: white;
+  font-weight: 500px;
+}
+header nav span {
+  background-color: orangered;
+  text-align: center;
   color: white;
 }
-header nav h3 {
-  color: white;
-}
-header .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  padding: 120px;
-}
-header .btnexp {
-  width: 150px;
-  background-color: rgb(241, 81, 81);
-  border-radius: 12px;
-  border: navajowhite;
-}
-header .btndow {
-  width: 100px;
-  background-color: rgb(199, 187, 187);
-  border-radius: 12px;
+header nav button {
+  background-color: inherit;
   border: none;
+  font-size: 23px;
+  color: white;
+  display: none;
 }
-
-footer {
-  max-width: 1440px;
-  margin: auto;
-  background-color: rgb(77, 70, 70);
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
+header h1 {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-weight: 450px;
+  padding: 100px;
 }
-
-main {
-  max-width: 1440px;
-  margin: auto;
-}
-main .visit {
-  padding: 40px;
-}
-main .visit .sekiller {
-  display: flex;
-  gap: 20px;
-}
-main .visit .kart {
-  max-width: 24%;
-}
-main .visit .kart img {
-  width: 100%;
-}
-main .visit .kart i {
-  color: red;
-}
-@media screen and (max-width: 768px) {
-  main .sekiller {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media screen and (max-width: 968px) {
+  header nav ul {
+    display: none;
   }
-  main .sekiller .kart {
-    max-width: 100%;
-    width: 100%;
+  header nav span {
+    display: none;
+  }
+  header nav button {
+    display: block;
   }
 }
-main .gorg {
-  background-image: url("https://preview.colorlib.com/theme/villa/img/round.png.webp");
+
+.featured {
   max-width: 1440px;
-  padding: 20px;
+  margin: auto;
+}
+.featured .seeour {
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-}
-main .gorg h1 {
-  text-align: center;
-  font-size: 52px;
-  max-width: 60%;
-}
-main .gorg p {
-  max-width: 60%;
-}
-main .gorgh1 {
-  display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
 }
-main .img {
+.featured .cartumumi {
   display: flex;
-  gap: 20px;
-  padding: 20px;
+  padding: 50px;
+  gap: 15px;
 }
-main .img .cart {
+.featured .card {
   max-width: 32%;
 }
-main .img .cart img {
-  width: 100%;
+.featured .icon {
+  display: flex;
+  gap: 40px;
+  padding: 20px;
 }
-@media screen and (max-width: 768px) {
-  main .img {
+.featured .icons {
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 968px) {
+  .cartumumi {
     display: flex;
     flex-direction: column;
   }
-  main .img .cart {
+  .cartumumi .card {
     max-width: 100%;
   }
 }
-
-.recent {
+.CLIENTS {
   max-width: 1440px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
+  margin: auto;
+  background-image: url("https://preview.colorlib.com/theme/theestate/images/testimonials_background.jpg");
 }
-.recent .resentpteg {
+.CLIENTS .lorem {
+  text-align: center;
+  font-weight: 450px;
+  padding: 100px;
+  color: white;
+  font-size: 25px;
+}
+.CLIENTS .pteg {
+  color: white;
+  font-size: 20px;
+  max-width: 70%;
+  text-align: center;
+  padding: 50px;
+  margin: auto;
+  font-size: 28px;
+}
+.CLIENTS .girl {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.recent h1 {
-  text-align: center;
-  font-size: 52px;
-  max-width: 60%;
+.CLIENTS .girl h4 {
+  color: orangered;
+  font-size: 35px;
 }
-.recent p {
-  max-width: 60%;
+.CLIENTS .girl p {
+  color: white;
+  font-size: 23px;
+}
+
+.cities {
+  max-width: 1440px;
+  margin: auto;
+}
+.cities .sekkiller {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  align-items: center;
+  max-width: 100%;
+}
+.cities img {
+  max-width: 18%;
+}
+.cities .h2ler {
+  text-align: center;
+  font-weight: 450px;
+  padding: 100px;
 }/*# sourceMappingURL=main.css.map */
